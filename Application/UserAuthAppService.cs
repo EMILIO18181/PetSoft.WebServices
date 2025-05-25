@@ -24,7 +24,7 @@ namespace PetSoft.WebServices.Application.Interface
                     Password = s.Password,
                     Phone = s.Phone,
                     Email = s.Email,
-                    Addresss = s.Addresss,
+                    Address = s.Address,
                     UserType = s.UserType,
 
                 }).FirstOrDefault();// instruccion para recuperar el primer dato de la consulta
